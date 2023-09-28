@@ -1,0 +1,20 @@
+public class Player {
+    private String name;
+    private int score;
+    public Player(String name) {
+        this.name = name;
+    }
+    public String getName(){
+        return this.name;
+    }
+    public int getScore(){
+        return this.score;
+    }
+    public void toss(Dice die){
+        die.roll();
+        this.score = die.view();
+    }
+
+}
+Player p1 = new Player("Finn");
+Player p2 = new Player("Elias");
