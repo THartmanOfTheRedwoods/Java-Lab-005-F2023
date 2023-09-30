@@ -16,5 +16,3 @@ public class Player {
     }
 
 }
-Player p1 = new Player("Finn");
-Player p2 = new Player("Elias");

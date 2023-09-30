@@ -1,7 +1,6 @@
 import java.util.Random;
 import java.util.random.RandomGenerator;
 
-
 public class Dice {
     private int sideFacingUp;
     private int sides;
