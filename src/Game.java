@@ -1,24 +1,12 @@
-import java.util.Scanner;
-
 public class Game {
     Player p1;
     Player p2;
     Dice die;
 
     public void play() {
-        Player current = p1;
         takeTurn(p1);
-        Player currrent = nextPlayer(p1);
-        takeTurn(current);
+        takeTurn(p2);
         System.out.println(announceWinner());
-    }
-
-    public Player nextPlayer(Player current) {
-        if(current == this.p1) {
-            return this.p2;
-        } else {
-            return this.p1;
-        }
     }
 
     public void takeTurn(Player player) {
