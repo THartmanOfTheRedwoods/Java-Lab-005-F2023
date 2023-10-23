@@ -1,6 +1,5 @@
 
 import java.util.Scanner;
-
 /**
  * @author Trevor Hartman
  * @author MJ Fracess
